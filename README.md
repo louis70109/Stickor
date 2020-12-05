@@ -1,44 +1,14 @@
-# LINE Bot Group API example(Unsend/Join/Leave), Chatroom(VideoComplete/Webhook)
+# Stickor
 
-This is a group/room demo bot.
+- [ ] Database
+- [ ] CSV download
+- [ ] Insert sticker queue(or memory)
+- [ ] Frontend
 
 
 # Deployment
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-# Webhook API routing:
-
-- Version 1 (just `echo` and `upgrade`): /v1/webhooks/line
-- Version 2: /v2/webhooks/line
-
-# Trigger words
-
-## 在群組(Group)/聊天室(Room)
-
-- 群組資訊/聊天室資訊
-- 我是誰
-- 你走吧
-
-> Nedd to invite chatbot into Group/Room.
-
-## Chatroom
-
-- If `v1` version:
-  - Type `v2` to use webhook event migration.
-- Type `video` to receive video, when watch complete you would get a message(Video Completed Event).
-
-# Screenshot
-
-![](https://i.imgur.com/4rMMe7Pm.png)
-
----
-
-![](https://i.imgur.com/fBGAqpmm.png)
-
----
-
-![](https://i.imgur.com/jFipsAJm.png)
 
 # Developer Side
 
